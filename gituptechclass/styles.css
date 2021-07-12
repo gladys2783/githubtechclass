@@ -1,0 +1,89 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image: radial-gradient(120% 100% at bottom right, #89f7fe 0%, #66a6ff 100%, transparent 92.5%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background: linear-gradient(to bottom, #66ccff 0%, #0033cc 100%);
+    position: fixed;
+    height: 100%;
+    color: black;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: large;
+}
+
+li a.active {
+    color: blue;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: blue;
+    font-size: x-large;
+}
+
+.social_media {
+    margin-left: 15%;
+    padding-left: 15%;
+}
+
+.contact_form {
+    width: 600px;
+    font-size: large;
+    font-style: large;
+    margin: auto;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+#main_form label {
+    color: #2d2d2d;
+    font-size: 17px;
+    font-family: Arial;
+    width: 100px;
+    float: left;
+}
+
+#main_form input {
+    width: 500px;
+    height: 100px;
+    line-height: 50px
+}
+
+#main_form placeholder {
+    width: 300px;
+}
+
+.grid-container {
+    background: linear-gradient(to left, #66ccff 0%, #0033cc 100%);
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+
+.grid-item {
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.js {
+    text-align: center;
+}

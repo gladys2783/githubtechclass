@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to my website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="form2.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/home.html">Entree</a></li>
+            <li>
+                <a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/home2.html">About us</a>
+            </li>
+            <li>
+                <a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/gallery1.html">Gallery</a>
+            </li>
+            <li>
+                <a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/project.html">Project</a>
+            </li>
+            <li><a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/game.html">Game</a></li>
+        </ul>
+    </div>
+    <h1 class="info">
+        Contact us for more information on your Ikigai and how to achieve it.
+    </h1>
+    <h3 class="social_media">
+
+        <br> <a href="tel:0452471357">Phone: 0452471357</a> <br>
+
+        <a href="mailto:gladys7david@gmail.com">email: gladys7david@gmail.com</a> <br>
+        <a href="https://www.facebook.com/gladys.david.52056">Facebook</a> <br>
+        <a href="https://www.linkedin.com/in/gladys-david-64664790/">Linkdin</a> <br>
+        <a href="https://drive.google.com/file/d/17Em2EreLRvhZvxMN18DsxpX9CoFq8r19/view?usp=sharing_eil&ts=60a4c033">cv</a>
+        <br>
+    </h3>
+    <div class="contact_form">
+        <h1>CONTACT FORM</h1>
+        <form onsubmit="return myFunction();" method="GET">
+
+            <div class="js"></div>
+            <fieldset>
+                <label>
+                            <p>First Name:</p>
+                            <input type="text " id="firstname"  placeholder="first name" maxlenght="25" id="myname" onkeydown = "if (event.keyCode == 13)  document.getElementById('mybutton').click()" required>
+                            <br>
+                            <p>Last Name:</p>
+                            <input type="text " id="lastname"  placeholder="last name" maxlenght="25" required>
+                        </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                            <p id="gender">Gender</p>
+                            <select name="Gender" required>
+                                <option value=""></option>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                            </select>
+                        <br>
+                            <p>Age:</p>
+                            <input type="text " id="age"  placeholder="age" required> 
+                        </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                            <p>Email:</p>Must be a valid email address
+                            <br>
+                            <input type="email"  id="email" placeholder ="name@email.com"  maxlenght="50" required />
+                                <br>
+                                <p>Website:</p>
+                                <input type="url" id="url-type-styled-input" placeholder="Do you have a website?" maxlenght="50" required>
+                                <br>
+                                <br> 
+                        </label>
+            </fieldset>
+            <fieldset>
+                <label for="Comments">Message (20 chars min, 255 max)</label>
+                <br>
+                <br>
+                <br>
+                <textarea name="comments" id="comments" maxlength="255" row="200" cols="70">Add your comments </textarea>
+                <br>
+                <br>
+
+            </fieldset>
+
+
+
+
+        </form>
+
+        <input type="submit" onclick="myFunction();">
+        <input type="reset" value="Reset">
+        <br><label>Your input is:</label>
+        <p><span id='fname'></span></p>
+        <p><span id='lname'></span></p>
+        <p><span id='pers'></span></p>
+        <p><span id='anni'></span></p>
+        <p><span id='joind'></span></p>
+        <p><span id='site'></span></p>
+        <p><span id='message'></span></p>
+
+
+
+
+
+
+    </div>
+
+
+</body>
+<footer class="footer">
+    <div class="grid-container">
+        <div class="grid-item">(c) 2021 Microsoft Corporation. All rights reserved.</div>
+        <div class="grid-item">
+            <li>Quick Links</li>
+            <li><a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/home2.html">
+            Contact</a></li>
+            <li><a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/form.html">Form</a></li>
+            <li>
+                <a href="file:///C:/Users/User1/OneDrive/techclass/website%20techclass/cvs/gladyspdfcv.pdf">PDF Cv</a>
+            </li>
+            <li>
+                <a href="file:///C:/Users/User1/OneDrive/techclass/website techclass/cvs/gladyscv.docx">DOC Cv</a>
+            </li>
+            <iframe src="https://free.timeanddate.com/clock/i7tbtavv/n101" frameborder="0" width="114" height="18"></iframe>
+        </div>
+
+    </div>
+</footer>
+
+</html>
